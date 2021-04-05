@@ -1,0 +1,119 @@
+h1 {
+    color: rgb(17, 17, 17);
+}
+
+/* * {
+    border: solid;
+}*/
+
+.header{
+    background-color:rgb(228, 144, 207);
+    display:flex; 
+    justify-content: space-between
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly ;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align:center;
+}
+
+body{
+    background-color: #ece071
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(253, 242, 139)
+}
+
+a:link{
+    color:darkslategrey
+}
+
+a:visited{
+    color:rgb(0, 0, 0)
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px
+}
+
+.item{
+    position: relative;
+}
+
+
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+}
+body{
+    margin: 0px;
+    background-color: teal;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami{
+
+    border-radius: 20px;
+    background-color: blueviolet;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+a:link{
+    color:peachpuff;
+}
+a:visited{
+    color:rgb(228, 144, 207)
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+}
